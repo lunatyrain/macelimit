@@ -1,0 +1,13 @@
+name: MaceLimit
+version: '${version}'
+main: dev.macelimit.MaceLimitPlugin
+api-version: '26.2'
+description: Caps the damage dealt by maces.
+commands:
+  macelimit:
+    description: View or change the mace damage limit
+    usage: /macelimit <damage|off>
+    permission: macelimit.admin
+permissions:
+  macelimit.admin:
+    default: op

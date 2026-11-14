@@ -1,0 +1,1 @@
+mace-damage-limit: 20   # max damage any mace hit can deal (2 = 1 heart, 0 = no limit). Change in game with /macelimit <damage|off>
